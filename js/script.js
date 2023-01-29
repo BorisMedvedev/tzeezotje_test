@@ -17,7 +17,7 @@ form.addEventListener("submit", function (event) {
   jQuery
     .ajax({
       method: "POST",
-      url: "https://inex.html/mail.php",
+      url: "https://tzeezotje-test-j0ptxoe4c-borismedvedev.vercel.app/mail.php",
       data: formData,
     })
     .done(function (msg) {
