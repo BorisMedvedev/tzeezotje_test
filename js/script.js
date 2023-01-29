@@ -17,7 +17,7 @@ form.addEventListener("submit", function (event) {
   jQuery
     .ajax({
       method: "POST",
-      url: 'http://index.html/mail.php',
+      url: "https://tzeezotje-test.vercel.app/mail.php",
       data: formData,
     })
     .done(function (msg) {
@@ -50,10 +50,8 @@ form.addEventListener("submit", function (event) {
         }
       }
     });
-  form.reset()
+  form.reset();
 });
-
-
 
 const btns = document.querySelectorAll(".hero__btn");
 const modalOverlay = document.querySelector(".modal-overlay ");
