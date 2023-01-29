@@ -75,8 +75,6 @@ btns.forEach((el) => {
 });
 
 modalOverlay.addEventListener("click", (e) => {
-  console.log(e.target);
-
   if (e.target == modalOverlay) {
     modalOverlay.classList.remove("modal-overlay--visible");
     modals.forEach((el) => {
