@@ -8,8 +8,8 @@ if (
     )
 {
 
-    $mail_to = "info@rightblog.ru"; // Email куда будет отправлено письмо
-    $email_from = "info@webcademy.ru"; // Указываем от кого будет отправлено письмо, email, reply to
+    $mail_to = "hudeem-pp@yandex.ru"; // Email куда будет отправлено письмо
+    $email_from = "bmedved78@mail.ru"; // Указываем от кого будет отправлено письмо, email, reply to
     $name_from = "Личный сайт портфолио"; // Указываем от кого будет отправлено письмо, имя
     $subject = "Сообщение с сайта!"; // Тема письма
 
