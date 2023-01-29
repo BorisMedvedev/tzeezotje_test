@@ -3,8 +3,6 @@ const success = document.getElementById("success");
 const error = document.getElementById("error");
 const errorsHolder = document.getElementById("errorsHolder");
 
-console.log(form);
-
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   console.log("SUBMIT!!!!!");
@@ -19,7 +17,7 @@ form.addEventListener("submit", function (event) {
   jQuery
     .ajax({
       method: "POST",
-      url: 'http://tzeezotje-test.vercel.app//mail.php',
+      url: 'https://tzeezotje-test.vercel.app/mail.php',
       data: formData,
     })
     .done(function (msg) {
