@@ -17,7 +17,7 @@ form.addEventListener("submit", function (event) {
   jQuery
     .ajax({
       method: "POST",
-      url: 'https://tzeezotje-test.vercel.app/mail.php',
+      url: 'http://index.html/mail.php',
       data: formData,
     })
     .done(function (msg) {
